@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Tahoma, sans-serif; 
+    font-size: 18px; /*tamanho texto*/
+    width: 100%;
+}
+
+header img {
+    float: right;
+    border: 2px solid #DDD;
+    margin: 20px;
+     }
+
+header p {
+    text-align: left;
+    color: white;
+    margin-right: 45px; /* direciona o texto da legenda lucas geraldi um pouco para a esquerda */
+    font-style: italic;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+header{
+    
+    background-color: orange;
+    padding: 1rem;
+}
+
+h1 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px; /* */
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    font-size: italic;
+    font-weight: normal;
+    margin: 15px 50px;
+}
+
+nav{
+    background-color: #E83617;
+}
+
+.menu {
+	
+    height: 1rem;
+    padding: 1rem;
+    margin: auto;
+    
+    
+     }
+
+     nav ul  {
+        list-style-type: none;
+        text-transform: uppercase;  
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+         }
+        
+
+         nav ul li a {
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 1rem;
+            display: block;
+            text-align: center;
+            color: #fff;
+            transition: 0.65s ease-in-out;
+    
+         }
+
+    nav ul li a:hover {
+        background-color: #fff;
+        color: #E83617;
+    }
+    main{
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .conteudo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 1000px;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+ 
+    .conteudo h2 {
+        color: #00205b;
+        font-size: 20px;
+        letter-spacing: 2px;
+        
+
+    }   
+
+    main p { 
+        line-height: 30px;
+        text-indent: 50px;
+        
+        margin: 10px 0 20px;
+    }
+
+    main img{
+        border: 13px groove #ccc;
+        
+
+    }
+   
+    
+    .video{
+        float: right;
+        margin-bottom: 20px;
+    }
+
+    table{
+        width: 550px;
+        border-collapse: collapse;
+        border: 2px solid #AAA;
+        padding: 8px;
+    }
+    td {
+        border: 1px solid #ddd;
+        padding: 6px;
+    }
+    th {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        text-align: center;
+        background-color: #000000d0;
+        color: #FFF;
+    }
+    footer {
+        text-align: center;
+        clear: both;
+        color: #FFF;
+        background-color: #E83617;
+        padding: 35px 0 30px;
+        letter-spacing: 1px;
+    }
+    footer p {
+        text-align: center;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
